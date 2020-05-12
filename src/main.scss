@@ -10,15 +10,18 @@ $font-primary: sans-serif;
 }
 
 body {
-    background: $dark-color;
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: $dark-color;
     color: $primary-color;
     font-family: $font-primary;
 }
 
 header {
     position: fixed;
-    height: 68px;
     width: 100%;
+    max-width: 1150px;
+    height: 68px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,12 +30,13 @@ header {
 }
 
 main {
-    padding: 20px;
+    background: $secondary-color;
+    padding: 50px 20px ;
     article {
         margin: 50px 0;
     }
 }
 
 p {
-    color: $secondary-color;
+    color: $dark-color;
 }

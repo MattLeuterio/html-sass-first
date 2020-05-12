@@ -5,15 +5,18 @@
 }
 
 body {
-  background: #141414;
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: #141414;
   color: lightsalmon;
   font-family: sans-serif;
 }
 
 header {
   position: fixed;
-  height: 68px;
   width: 100%;
+  max-width: 1150px;
+  height: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +25,8 @@ header {
 }
 
 main {
-  padding: 20px;
+  background: papayawhip;
+  padding: 50px 20px;
 }
 
 main article {
@@ -30,7 +34,7 @@ main article {
 }
 
 p {
-  color: papayawhip;
+  color: #141414;
 }
 
 
